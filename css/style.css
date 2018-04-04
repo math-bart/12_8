@@ -56,8 +56,8 @@ h5 {
     .btn:hover * {
       font-size: 18px;
       transition: 0.3s; }
-    .btn:hover:active {
-      background: #000; }
+  .btn:active {
+    background: #000; }
   .btn a {
     font-size: 14px;
     text-transform: uppercase;
@@ -819,7 +819,8 @@ h5 {
 .fixed {
   position: sticky;
   width: 96vw;
-  top: 440px;
+  top: 530px;
+  margin-top: -65px;
   z-index: 10; }
   .fixed div {
     cursor: pointer;
