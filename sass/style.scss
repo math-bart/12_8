@@ -437,20 +437,20 @@ h5 {
 		height: 700px;
 	}
 	h3 {
-	font-size: 24px;
-	color: #000;
-	font-weight: 700;
+		font-size: 24px;
+		color: #000;
+		font-weight: 700;
 	}
 	h6 {
-	color: #000;
-	margin-bottom: 50px;
-	font-size: 18px;
+		color: #000;
+		margin-bottom: 50px;
+		font-size: 18px;
 	}
 	p {
-	margin-bottom: 110px;
-	color: #7e7e7e;
-	font-size: 14px;
-	font-weight: 300;
+		margin-bottom: 110px;
+		color: #7e7e7e;
+		font-size: 14px;
+		font-weight: 300;
 	}
 }
 .logo {
@@ -643,7 +643,7 @@ h5 {
 	.fa {
 		display: inline-block;
 		float: left;
-		background-color: white;
+		background-color: #fff;
 		border-radius: 50%;
 		width: 30px;
 		height: 30px;
@@ -1089,6 +1089,22 @@ h5 {
 }
 		
 @media (max-width: 1360px) {
+	.main {
+		height: 55vw;	
+		#carousel-example-generic2 {
+			height: 55vw;
+			.carousel-inner {
+				height: 55vw;
+			}
+			.carousel-indicators {
+				bottom: 4vw;
+			}
+		}
+		.hero {
+			top: -42vw;
+		}
+	}
+	
 	.fixed {
 		top: 530px;
 		margin-top: -65px;

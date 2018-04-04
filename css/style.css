@@ -492,7 +492,7 @@ h5 {
   .share .fa {
     display: inline-block;
     float: left;
-    background-color: white;
+    background-color: #fff;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -841,6 +841,17 @@ h5 {
     float: right; }
 
 @media (max-width: 1360px) {
+  .main {
+    height: 55vw; }
+    .main #carousel-example-generic2 {
+      height: 55vw; }
+      .main #carousel-example-generic2 .carousel-inner {
+        height: 55vw; }
+      .main #carousel-example-generic2 .carousel-indicators {
+        bottom: 4vw; }
+    .main .hero {
+      top: -42vw; }
+
   .fixed {
     top: 530px;
     margin-top: -65px; } }
