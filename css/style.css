@@ -119,6 +119,8 @@ h5 {
   padding: 0; }
   .main #carousel-example-generic2 {
     height: 740px; }
+    .main #carousel-example-generic2 .carousel-inner {
+      height: 740px; }
     .main #carousel-example-generic2 .carousel-indicators {
       bottom: 50px; }
   .main * {
@@ -844,6 +846,17 @@ h5 {
     float: right; }
 
 @media (max-width: 1200px) {
+  .main {
+    height: 55vw; }
+    .main #carousel-example-generic2 {
+      height: 55vw; }
+      .main #carousel-example-generic2 .carousel-inner {
+        height: 55vw; }
+      .main #carousel-example-generic2 .carousel-indicators {
+        bottom: 4vw; }
+    .main .hero {
+      top: -45vw; }
+
   .team .row .col-fa {
     margin: 1.5vw 2px; }
 
@@ -987,9 +1000,9 @@ h5 {
 
   #myModal1 .modal-body #carousel-example-generic9 .carousel-control {
     top: 55vw; } }
-@media (max-width: 630px) {
+@media (max-width: 650px) {
   .main .hero {
-    top: -55vw; }
+    top: -52vw; }
     .main .hero h1 {
       font-size: 30px;
       line-height: 30px; }
