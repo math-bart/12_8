@@ -484,6 +484,7 @@ h5 {
 	p {
 		line-height: 10px;
 		margin: 5px;
+		font-family: "Gotham Rounded";
 	}
 	h2 {
 		font-size: 14px;
@@ -771,6 +772,7 @@ h5 {
 			height: 40px;
 			line-height: 30px;
 			margin: 10px;
+			font-family: "Gotham Rounded";
 			i {
 				font-size: 20px;
 				display: inline-block;
@@ -1178,6 +1180,14 @@ h5 {
 			margin: 20px auto;
 		}
 	}
+	.products {
+		.carousel-caption {
+			height: 690px;
+		}
+		.btn {
+			margin-top: 20px;
+		}
+	}
 	.footer {
 		.col-i {
 		 width: 5vw;
@@ -1398,6 +1408,15 @@ h5 {
 			width: 98%;
 		}
 	}
+	.products {
+		.row {
+			.col{
+				p {
+					font-size: 12px;
+				}
+			}
+		}
+	}
 	.contact {
 		padding: 20px 0;
 		.ct-box {
@@ -1458,16 +1477,7 @@ h5 {
 			font-size: 12px;
 		}
 	}
-	.products {
-		.row {
-			.col{
-			
-				p {
-					font-size: 12px;
-				}
-			}
-		}
-	}
+	
 	.share {
 		.col {
 			.col {

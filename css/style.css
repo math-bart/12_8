@@ -361,7 +361,8 @@ h5 {
       line-height: 10px; }
   .prices p {
     line-height: 10px;
-    margin: 5px; }
+    margin: 5px;
+    font-family: "Gotham Rounded"; }
   .prices h2 {
     font-size: 14px;
     text-transform: uppercase;
@@ -593,7 +594,8 @@ h5 {
     .map .place-info .col {
       height: 40px;
       line-height: 30px;
-      margin: 10px; }
+      margin: 10px;
+      font-family: "Gotham Rounded"; }
       .map .place-info .col i {
         font-size: 20px;
         display: inline-block;
@@ -896,6 +898,11 @@ h5 {
     height: 20vw;
     margin: 20px auto; }
 
+  .products .carousel-caption {
+    height: 690px; }
+  .products .btn {
+    margin-top: 20px; }
+
   .footer .col-i {
     width: 5vw;
     height: 5vw; }
@@ -1032,6 +1039,9 @@ h5 {
   .projects .col {
     width: 98%; }
 
+  .products .row .col p {
+    font-size: 12px; }
+
   .contact {
     padding: 20px 0; }
     .contact .ct-box {
@@ -1064,9 +1074,6 @@ h5 {
     display: none; }
 
   .prices p {
-    font-size: 12px; }
-
-  .products .row .col p {
     font-size: 12px; }
 
   .share .col .col {
