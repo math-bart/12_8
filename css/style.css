@@ -819,7 +819,7 @@ h5 {
 .fixed {
   position: sticky;
   width: 96vw;
-  top: 500px;
+  top: 440px;
   z-index: 10; }
   .fixed div {
     cursor: pointer;
@@ -856,16 +856,8 @@ h5 {
     top: 530px;
     margin-top: -65px; } }
 @media (max-width: 1200px) {
-  .main {
-    height: 55vw; }
-    .main #carousel-example-generic2 {
-      height: 55vw; }
-      .main #carousel-example-generic2 .carousel-inner {
-        height: 55vw; }
-      .main #carousel-example-generic2 .carousel-indicators {
-        bottom: 4vw; }
-    .main .hero {
-      top: -45vw; }
+  .main .hero {
+    top: -45vw; }
 
   .team .row .col-fa {
     margin: 1.5vw 2px; }
