@@ -1,4 +1,4 @@
-$fonts-main: "Gotham Rounded";
+$fonts-main: 'Montserrat', sans-serif;
 
 $color-background: #f5f6f7;
 $color-main: #b88b58;
@@ -53,7 +53,7 @@ $color-dribbble: #cb2028;
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Gotham Rounded";
+	font-family: $fonts-main;
 	box-sizing: border-box;
 	color: $color-dark-gray;
 
@@ -138,6 +138,7 @@ h5 {
 			display: inline-block;
 			li {
 				display: inline-block;
+				
 				float: left;
 				padding: 5px 10px;
 				height: 100px;
@@ -147,6 +148,7 @@ h5 {
 				}
 				a {			
 					text-decoration: none;
+					font-family: "Gotham Rounded";
 					text-align: center;
 					text-transform: uppercase;
 					font-weight: 700;
@@ -186,7 +188,6 @@ h5 {
 			margin: 15px auto;
 		}
 		h1 {
-			font-family: "Gotham Rounded";
 			text-transform: uppercase;
 			font-weight: 700;
 			font-size: 72px;
@@ -293,7 +294,7 @@ h5 {
 		* {
 			color: #000;
 			font-size: 14px;
-			
+			font-family: "Gotham Rounded";
 		}
 		li a {
 			border-left: 2px solid #999;
@@ -867,8 +868,8 @@ h5 {
 		margin-top: 110px;
 	}
 	p {
-		font-size: 13px;
-		color: $color-gray;;
+		font-size: 12px;
+		color: $color-gray;
 	}
 }
 

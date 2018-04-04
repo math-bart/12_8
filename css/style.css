@@ -28,7 +28,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Gotham Rounded";
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   color: #373737; }
 
@@ -106,6 +106,7 @@ h5 {
           border-bottom: 5px solid #b88b58; }
         .menu .nav ul li a {
           text-decoration: none;
+          font-family: "Gotham Rounded";
           text-align: center;
           text-transform: uppercase;
           font-weight: 700;
@@ -134,7 +135,6 @@ h5 {
     .main .hero * {
       margin: 15px auto; }
     .main .hero h1 {
-      font-family: "Gotham Rounded";
       text-transform: uppercase;
       font-weight: 700;
       font-size: 72px;
@@ -216,7 +216,8 @@ h5 {
     padding: 0; }
     .projects .nav-tabs * {
       color: #000;
-      font-size: 14px; }
+      font-size: 14px;
+      font-family: "Gotham Rounded"; }
     .projects .nav-tabs li a {
       border-left: 2px solid #999; }
       .projects .nav-tabs li a:hover {
@@ -674,7 +675,7 @@ h5 {
     display: block;
     margin-top: 110px; }
   .footer p {
-    font-size: 13px;
+    font-size: 12px;
     color: #7e7e7e; }
 
 #myModal {
