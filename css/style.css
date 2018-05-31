@@ -30,7 +30,8 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
-  color: #373737; }
+  color: #373737;
+  outline: none; }
 
 h1 {
   font-size: 30px;

@@ -1,0 +1,1 @@
+Najbardziej zaawansowany jak do tej pory template wykonany z użyciem Html i Css, Bootstrap, Sass i odrobinę JS
